@@ -14,3 +14,34 @@ body {
     'Open Sans', 'Helvetica Neue', sans-serif;
   transition: color 150ms var(--timing-function), background-color 150ms var(--timing-function);
 }
+img {
+  display: block;
+}
+.country-info {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  padding: 0;
+}
+.country-name {
+  text-align: center;
+}
+.countries-info-item {
+  list-style: none;
+}
+.languages {
+  text-align: left;
+  list-style: none;
+}
+.text {
+  font-weight: bold;
+}
+.span-text {
+  font-weight: normal;
+  padding-left: 5px;
+}
+ul > li.languages-item:before {
+  content: '✔';
+  color: black;
+  margin-right: 5px;
+}
