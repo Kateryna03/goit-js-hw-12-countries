@@ -42,6 +42,7 @@ function makeMarkup(country) {
     alert({
       text: 'No matches found =(',
       type: 'info',
+      delay: 1000,
     });
     return;
   } else if (country.length > 10) {
@@ -53,7 +54,7 @@ function makeMarkup(country) {
       text: 'Please enter a more specific query!',
       //hide: true,
       animation: 'slide',
-      //delay: 4000,
+      delay: 1000,
       top: '500px',
       min_height: '16px',
       animate_speed: 200,
