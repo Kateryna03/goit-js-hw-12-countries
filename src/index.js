@@ -59,6 +59,15 @@ function makeMarkup(country) {
       min_height: '16px',
       animate_speed: 200,
       text_escape: true,
+      // buttons: [
+      //   {
+      //     text: 'ok',
+      //     primary: true,
+      //     click: notice => {
+      //       notice.close();
+      //     },
+      //   },
+      // ],
       nonblock: {
         nonblock: true,
         nonblock_opacity: 0.1,
